@@ -5,13 +5,24 @@ import java.lang.reflect.Array;
 public class Hello {
 public static void main(String[] args) {
 	
-		for(int k=55; k<90; k++){
-	System.out.println("Hello Loop!");
+	int a, b, c[];
+	
+	String home[] = {"Big", "Orange", "Tall", "Small"};
+	
+	for (String string : home) {
+		System.out.println("My home is: "+ string);
 	}
 	System.out.println("Hello Loop!");
+	System.out.println("Big cake");
+	System.out.println("Big cake");
+	System.out.println("Big cake");
+	System.out.println("Big cake");
+	System.out.println("Big cake");
+	System.out.println("Big cake");
+	System.out.println("Big cake");
 	System.out.println("Hello Class!");
 	for(int i=55; i<59; i++){
-	System.out.println("Hello Loop!");
+	
 	}
 }
 }
